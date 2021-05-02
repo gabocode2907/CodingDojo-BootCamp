@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Fomulario Registros">
+    <meta name="keywords" content="Fomulario Registros HML, Javascrypt, CSS">
+    <meta name="Author" content="Coding Dojo">
+    <!-- <script src="script.js"></script> -->
+    <link rel="stylesheet" href="styles.css">
+    <title>Arbol</title> 
+
+    <script>
+        function validate() {
+    
+        var x = document.forms["validForm"]["yourName"].value;
+        var y = document.forms["validForm"]["yourMail"].value;
+        var z = document.forms["validForm"]["yourId"].value;
+
+        if (x == "") {
+            alert('PLEASE NAME INPUT');            
+        }
+        if (x == "") {
+            alert('PLEASE NAME INPUT');            
+        }
+        if (x == "") {
+            alert('PLEASE NAME INPUT');            
+        }
+    }
+    </script>
+    
+</head>
+<body>
+    <div class="body">
+    <div class="encabezado">
+        <h1>THIS IS A FORM</h1>
+    </div>
+
+    <p>Please fill the form</p>
+
+    <form name="validForm" action="">
+        <label>USER</label>
+        <br>
+        <br>    
+        <input autocomplete="off" autofocus name="yourName" type="text" placeholder="NAME"></input> 
+        <br>
+        <br>
+        <label>MAIL</label>
+        <br>
+        <br>    
+        <input autocomplete="off" name="yourMail" type="text" placeholder="@example.com"></input> 
+        <br>
+        <br>
+        <label>CEDULA</label>
+        <br>
+        <input autocomplete="off" name="yourId" type="text" placeholder="numero"></input>
+        <button class="btn" onclick="validate()">Submit</button>
+    </form>        
+</div>    
+</body>
+</html>
