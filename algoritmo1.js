@@ -16,17 +16,17 @@ for(var i=0; i<5; i++)
 
 function y(num1, num2){   
     return num1+num2;
- }
- console.log(y(2,3))
- console.log(y(3,5))
+}
+console.log(y(2,3))
+console.log(y(3,5))
  //console outupt: 5,8
 
 function y(num1, num2){
     console.log(num1);   
     return num1+num2;
- }
- console.log(y(2,3))
- console.log(y(3,5))
+}
+console.log(y(2,3))
+console.log(y(3,5))
  //console output: 2,5,3,8
 
 a = 15
@@ -39,7 +39,7 @@ b = y(10);
 console.log(b);
  //console output: 15,10,10
 
- a = 15;
+a = 15;
 console.log(a);
 function y(a){
    console.log(a);   
