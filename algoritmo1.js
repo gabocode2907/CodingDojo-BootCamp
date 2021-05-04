@@ -21,7 +21,7 @@ function y(num1, num2){
  console.log(y(3,5))
  //console outupt: 5,8
 
- function y(num1, num2){
+function y(num1, num2){
     console.log(num1);   
     return num1+num2;
  }
