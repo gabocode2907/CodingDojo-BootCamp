@@ -12,7 +12,7 @@ for(var i=0; i<5; i++)
 {
    i = i + 3; 
    console.log(i);
-}//console outupt: 3,6
+}//console outupt: 3,7
 
 function y(num1, num2){   
     return num1+num2;
