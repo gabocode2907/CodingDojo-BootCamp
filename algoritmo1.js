@@ -6,7 +6,7 @@ for(var i=0; i<5;i++){
 {
    i = i + 1;  
    console.log(i);
-}//console outupt: 1,2,3,4,5
+}//console outupt: 1,3,5
 
 for(var i=0; i<5; i++)
 {
